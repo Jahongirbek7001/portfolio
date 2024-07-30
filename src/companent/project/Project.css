@@ -1,3 +1,9 @@
+.project_container {
+    display:  flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
 .project_content {
     width: 50%;
     margin: 0 auto;
@@ -7,7 +13,8 @@
     border-radius: 1.25rem;
 }
 .about_img {
-    width: 350px;
+    width: 180px;
+    height: 180px;
     border-radius: 1.5rem;
     justify-self: center;
     cursor: pointer;

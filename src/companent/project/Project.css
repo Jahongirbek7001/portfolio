@@ -1,8 +1,41 @@
 .project_container {
+    width: 80%;
     display:  flex;
     justify-content: center;
     align-items: center;
     gap: 10px;
+    margin: 0 auto;
+}
+.project_container ul {
+    width: 70%;
+}
+.project_container ul li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+    padding: 10px;
+    border-bottom: 1.5px solid black;
+    cursor: pointer;
+}
+.project_container li a {
+    color: black;
+}
+.arrowRightIcon {
+    font-size: 30px;
+    color: black;
+}
+.project_container li:hover a {
+    color: rgb(136, 136, 255);
+}
+.arrowIcon {
+    color: rgb(136, 136, 255);
+}
+.project_container li:hover {
+    border-bottom: 2px solid rgb(136, 136, 255);
+}
+.project_container li:hover .arrowRightIcon {
+    color: rgb(136, 136, 255);
 }
 .project_content {
     width: 50%;

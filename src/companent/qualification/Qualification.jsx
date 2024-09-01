@@ -15,12 +15,12 @@ const Qualification = () => {
 
                 <div className="qualification_container container">
                     <div className="qualification_tabs">
-                        <div className={toggleState === 1 ? "qualification_button qualification_active button-flex" : "qualification_button button-flex"} onClick={()=>toggleTab(1)}>
+                        <div className={toggleState === 1 ? "active-button qualification_button qualification_active button-flex" : "qualification_button button-flex"} onClick={()=>toggleTab(1)}>
                             <img width="30" height="30" src="https://img.icons8.com/ios/50/education.png" alt="education" className='qualification_icon'  />
                             Education
                         </div>
 
-                        <div className={toggleState === 2 ? "qualification_button qualification_active button-flex" : "qualification_button button-flex"} onClick={()=>toggleTab(2)}>
+                        <div className={toggleState === 2 ? "qualification_button active-button qualification_active button-flex" : "qualification_button button-flex"} onClick={()=>toggleTab(2)}>
                             <img width="30" height="30" src="https://img.icons8.com/ios/50/briefcase.png" alt="briefcase" className='qualification_icon'  />
                             Experience
                         </div>
@@ -83,7 +83,7 @@ const Qualification = () => {
                         </div>
 
                         {/* content-2 */}
-                        <div className={toggleState === 2 ? "qualification_content qualification_content-active" : "qualification_content"}>
+                        <div className={toggleState === 2 ? "qualification_content  qualification_content-active" : "qualification_content"}>
                             <div className="qualification_data">
                                 <div>
                                     <h3 className="qualification_title">Designer</h3>
